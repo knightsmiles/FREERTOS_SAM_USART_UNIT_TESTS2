@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1490158749 source:/home/scott/projects/Robomower/robocontrol/serial_port.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ioctl.h>
+	"packet.h"
+
+1490158941 /home/scott/projects/Robomower/robocontrol/packet.h
+	"serial.h"
+
+1490156196 source:/home/scott/projects/Robomower/robocontrol/main.c
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<stdlib.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<sys/ioctl.h>
+	"packet.h"
+	"serial.h"
+
+1490159089 /home/scott/projects/Robomower/robocontrol/serial.h
+
